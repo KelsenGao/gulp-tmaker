@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leonkao/tmaker.git"
+    "url": "git+https://github.com/Leonkao/gulp-tmaker.git"
   },
   "devDependencies": {
     "gulp-util": "^3.0.7"
