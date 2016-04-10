@@ -3,7 +3,6 @@
 var through = require('through2'),
 	gutil = require('gulp-util'),
 	Tcore = require('./lib/core');
-	// taglib = require('taglib');
 	
 var PLUGIN_NAME = 'tmaker';
 

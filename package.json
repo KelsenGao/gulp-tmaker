@@ -1,5 +1,5 @@
 {
-  "name": "tmaker",
+  "name": "gulp-tmaker",
   "version": "1.0.0",
   "description": "CMUI模板引擎,预览、发布 Tmaker 中间语言。",
   "main": "index.js",
@@ -27,4 +27,3 @@
   },
   "homepage": "https://github.com/Leonkao/tmaker#readme"
 }
-
