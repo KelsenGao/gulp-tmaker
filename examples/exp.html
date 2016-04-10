@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<div class="breadcrumb">
+	<!--Tmaker bot="current-node" order="parents" type="linkname"--><!--/Tmaker-->	
+</div>
+
+
+
+<!--Tmaker bot="web-count" site="" page="content"--><!--/Tmaker-->
+<h2>高级标题列表</h2>
+
+<ul class="listy-unstyled">
+<!--Tmaker bot="title-list-page" loop="0-5" spanmode="" order="" from="" filter="all"-->
+	<li><a href="{$url}" target="_blank">{$title}</a></li>
+<!--/Tmaker-->
+</ul>
+
+<h2>高级栏目列表</h2>
+<!--Tmaker bot="class-list" order="1" -->
+<h3>{$pretitle}</h3>
+<h1>{$title}</h1>
+<h3>{$subtitle}</h3>
+<h4>{$id}</h4>
+<div class="info">
+	<span>来源：{$source}</span>
+	<span>作者：{$author}</span>
+	<span>责任编辑：{$liability}</span>
+	<span>发布时间：{$pubtime}</span>
+</div>
+<div>{$content}</div>
+<!--/Tmaker-->
+
+<h2>高级分页标题列表</h2>
+<!--Tmaker bot="title-list-page" nodeid="78" type="9" -->
+<h3>{$pretitle}</h3>
+<h1>{$title}</h1>
+<h3>{$subtitle}</h3>
+<div class="info">
+	<span>来源：{$source}</span>
+	<span>作者：{$author}</span>
+	<span>责任编辑：{$liability}</span>
+	<span>发布时间：{$pubtime}</span>
+</div>
+<!--/Tmaker-->
+
+<h2>单个栏目</h2>
+<!--Tmaker bot="single-node" from="52396" text="" --><!--/Tmaker-->
+
+<h2>当前位置</h2>
+<div class="breadcrumb">
+	<!--Tmaker bot="position" order="parents" --><!--/Tmaker-->	
+</div>
+
+<h2>当前栏目信息</h2>
+<!--Tmaker bot="current-node" from="52396"  style="parent" -->123<!--/Tmaker-->
+
+<h2>相关稿件</h2>
+<!--Tmaker bot="related-article" style="parent" --><!--/Tmaker-->
+
+<h2>正文页统计代码</h2>
+<!--Tmaker bot="web-count" site="enmod" page="content"--><!--/Tmaker-->
+
+<h2>频道页统计代码</h2>
+<!--Tmaker bot="web-count" site="enmod" page="node"--><!--/Tmaker-->
+
+<h2>专题页统计代码</h2>
+<!--Tmaker bot="web-count" site="enmod" page="special"--><!--/Tmaker-->
+
+<h2>微信分享</h2>
+<!--Tmaker bot="wechat-share" version="1.0.0"--><!--/Tmaker-->
+
+</body>
+</html>

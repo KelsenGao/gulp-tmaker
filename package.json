@@ -1,0 +1,30 @@
+{
+  "name": "tmaker",
+  "version": "1.0.0",
+  "description": "CMUI模板引擎,预览、发布 Tmaker 中间语言。",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "html",
+    "build"
+  ],
+  "author": "gaoliang",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonkao/tmaker.git"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/Leonkao/tmaker/issues"
+  },
+  "homepage": "https://github.com/Leonkao/tmaker#readme"
+}
+
