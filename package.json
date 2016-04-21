@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leonkao/gulp-tmaker.git"
+    "url": "git+https://github.com/KelsenGao/gulp-tmaker.git"
   },
   "devDependencies": {
     "gulp-util": "^3.0.7"
   },
   "bugs": {
-    "url": "https://github.com/Leonkao/tmaker/issues"
+    "url": "https://github.com/KelsenGao/tmaker/issues"
   },
-  "homepage": "https://github.com/Leonkao/tmaker#readme"
+  "homepage": "https://github.com/KelsenGao/tmaker#readme"
 }
