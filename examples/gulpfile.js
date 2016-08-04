@@ -1,7 +1,6 @@
 
 var gulp 	= require('gulp'),
-	includer		= require('gulp-html-ssi');
-/** REMOVE ME **/ var Tmaker = require('../index');
+	Tmaker = require('../index');
 /** USE ME **/ // var replace = require('gulp-Tmaker');
 
 gulp.task('enp', function() {
@@ -16,4 +15,4 @@ gulp.task('html', function() {
 		.pipe(gulp.dest('./output'));
 });
 
-gulp.task('default', ['html']);
+gulp.task('default', ['enp']);
