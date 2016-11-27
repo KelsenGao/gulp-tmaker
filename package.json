@@ -1,6 +1,6 @@
 {
   "name": "gulp-tmaker",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "CMUI模板引擎,预览、发布 Tmaker 中间语言。",
   "main": "index.js",
   "scripts": {
