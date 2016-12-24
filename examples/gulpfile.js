@@ -5,7 +5,7 @@ var gulp 	= require('gulp'),
 
 gulp.task('enp', function() {
 	return gulp.src("*.html")
-		.pipe(Tmaker({isPreview:false}))
+		.pipe(Tmaker({isPreview:true,lang:'en'}))
 		.pipe(gulp.dest('./output'));
 });
 
