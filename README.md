@@ -8,7 +8,7 @@ Tmaker 是一个模板中间语言解析器,用于实现高效模板开发。其
 * 扩展标签解析
 * 解析并生成文档 Tdoc
 
-# install
+## install
 Tmaker 基于 gulp 实现，请配置好相关开发环境后运行以下命令安装 Tmaker
 ```
 $npm install --save gulp-tmaker
@@ -24,8 +24,19 @@ gulp.task('tmaker', function() {
 		.pipe(gulp.dest('./output'));
 });
 ```
+## 配置
 
-# 自定义字段预览格式
+### isPreview
+* true : 预览视图
+* false ：翔宇视图
+
+### lang
+* cn : 中文
+* en : english
+
+## 自定义字段预览格式
 增加对自定义字段预览信息的支持，可通过两种方式自定义预览信息
 - `#` 井号后面的内容将直接作为预览数据显示
 - `|` 管道符后面的内容将作为参数影响预览数据输出，如果CMS标签同时支持该参数，该参数效果也会反映到CMS标签上。
+
+
