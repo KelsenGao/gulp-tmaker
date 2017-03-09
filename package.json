@@ -4,7 +4,7 @@
   "description": "CMUI模板引擎,预览、发布 Tmaker 中间语言。",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "keywords": [
     "html",
@@ -20,7 +20,9 @@
     "url": "git+https://github.com/gauliang/gulp-tmaker.git"
   },
   "devDependencies": {
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "mocha": "^3.2.0",
+    "tape": "^4.6.3"
   },
   "bugs": {
     "url": "https://github.com/gauliang/tmaker/issues"
