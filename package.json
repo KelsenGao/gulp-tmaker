@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "gulp-util": "^3.0.7",
-    "mocha": "^3.2.0",
+    "mocha": "^3.5.3",
     "tape": "^4.6.3"
   },
   "bugs": {

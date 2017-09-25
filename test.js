@@ -6,7 +6,7 @@ var assert = require('assert');
 
 Tcore.initTmakerOptions({
     isPreview: false,
-    lang: 'en'
+    lang: 'cn'
 });
 
 function createfile(content) {
